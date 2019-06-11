@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GIFTastic</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="assets/javascript/app.js">
+  <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  <img id="topImageL" src="assets/images/steveirwin.gif">
+  <img id="topImageR" src="assets/images/steveirwin.gif">
+  <h1>Cool Animal GIFs Brah</h1>
+  <h4>Click these buttons for some cool animal GIFs brah.<br>Click the GIPHYs to pause and play<br>Search to add more animal buttons, yo!</h4>
+</div>
+
+<form class="form-inline" id="animalSearch">
+  <div class="form-group">
+    <label for="animalInput">Search for an Animal</label>
+    <input type="text" id="animalInput">
+  </div>
+  <!-- Button triggers show to be added -->
+  <input id="addAnimal" type="submit" value="submit">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn btn-primary" id="animal" data-search="Lion">Lion</button>
+      <button class="btn btn-primary" id="animal" data-search="Elephant">Elephant</button>
+      <button class="btn btn-primary" id="animal" data-search="Iguana">Iguana</button>
+      <button class="btn btn-primary" id="animal" data-search="Dragon">Dragon</button>
+
+      <div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>
