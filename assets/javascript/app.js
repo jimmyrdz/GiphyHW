@@ -86,3 +86,5 @@ $(document).ready(function() {
     }
     
     });
+
+    // COULD NOT FIGURE OUT HOW TO REMOVE OLD GIFS WHEN NEW BUTTON IS PRESSED...
